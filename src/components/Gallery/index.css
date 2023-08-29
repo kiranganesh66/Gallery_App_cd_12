@@ -1,0 +1,61 @@
+/* Write your code here. */
+.mainBG {
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 20px;
+}
+.imgSize {
+  height: 70vh;
+  width: 70vw;
+  border-radius: 10px;
+}
+
+.list {
+  list-style-type: none;
+  margin: 10px;
+}
+.image_bg {
+  display: flex;
+}
+.Heading {
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+
+.sign {
+  color: #64748b;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+.Below_ThumN_Contanier {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0px;
+}
+.thumbnailList {
+  list-style-type: none;
+  background-color: transparent;
+}
+
+.thumbnailBtn {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.ac {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 576px) {
+  .imgSize {
+    height: 50vh;
+    width: 85vw;
+    margin-top: 20px;
+  }
+}
